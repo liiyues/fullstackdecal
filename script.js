@@ -19,12 +19,12 @@ const question1 = () => {
     if (sidebarIsOpen) {
       // Close the sidebar
       sidebar.classList.remove("opened")
-      sidebarButton.textContent = ">"
+      sidebarButton.textContent = '>'
       
     } else {
       // Open the sidebar
       sidebar.classList.add("opened")
-      sidebarButton.textContent = "<"
+      sidebarButton.textContent = '<'
     }
   });
 };
